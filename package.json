@@ -1,19 +1,20 @@
 {
-  "name": "hexo-renderer-sass",
-  "version": "0.4.0",
-  "description": "Sass renderer plugin for Hexo",
+  "name": "hexo-renderer-dart-sass",
+  "version": "1.0.0",
+  "description": "Dart Sass renderer plugin for Hexo",
   "main": "index",
   "repository": {
     "type": "git",
-    "url": "git://github.com/knksmith57/hexo-renderer-sass.git"
+    "url": "git://github.com/codysherman/hexo-renderer-dart-sass"
   },
   "keywords": [
     "hexo",
     "sass",
+    "dart-sass",
     "scss",
     "renderer"
   ],
-  "author": "Kyle Smith <knksmith57@gmail.com>",
+  "contributors": ["Kyle Smith <knksmith57@gmail.com>", "Cody Sherman <cody@codysherman.com> (https://codysherman.com)"],
   "license": "MIT",
   "scripts": {
     "lint": "standard",
@@ -24,7 +25,7 @@
     "node": ">= 6"
   },
   "dependencies": {
-    "node-sass": "^4.5.3"
+    "sass": "^1.26.8"
   },
   "peerDependencies": {
     "hexo": ">= 3"
