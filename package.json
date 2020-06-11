@@ -14,7 +14,10 @@
     "scss",
     "renderer"
   ],
-  "contributors": ["Kyle Smith <knksmith57@gmail.com>", "Cody Sherman <cody@codysherman.com> (https://codysherman.com)"],
+  "contributors": [
+    "Kyle Smith <knksmith57@gmail.com>",
+    "Cody Sherman <cody@codysherman.com> (https://codysherman.com)"
+  ],
   "license": "MIT",
   "scripts": {
     "lint": "standard",
